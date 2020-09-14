@@ -5,7 +5,7 @@ public class ArealAfCirkler {
         // Taget fra min udarbejdelse i uge 37
         // https://github.com/amatzen/SE01-OOP/blob/master/Week37/src/dk/alexander/ovelser/week37/Main.java
 
-        double[] data = {1, 3, 5};
+        double[] data = {1, 2, 4};
         double pi = 3.14;
 
         for (double i: data) {
