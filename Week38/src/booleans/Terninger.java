@@ -21,22 +21,10 @@ public class Terninger {
             System.exit(0);
         }
 
-        boolean greatherThanThree = (data >= 3) ? true : false;
-
-        /*
-
-        Short hand for:
-
-            if ( data >= 3 ) {
-                return true;
-            } else {
-                return false
-            }
-
-        */
+        boolean greatherThanThreeAndEven = (data >= 3 && data % 2 == 0) ? true : false;
 
 
-        System.out.println(greatherThanThree);
+        System.out.println(greatherThanThreeAndEven);
 
 
     }
